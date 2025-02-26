@@ -20,7 +20,7 @@ def extract_notion_details(notion_data):
     for page in notion_data:
 
         details = {
-            "id":   page.get("id"),
+            "uid":   page.get("id"),
             "name": "$.properties.Name.title[*].text.content",
             "date": "$.properties.Date.date.start",
             "time": "$.properties.Time.rich_text[*].text.content",

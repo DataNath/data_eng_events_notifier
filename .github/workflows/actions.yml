@@ -34,4 +34,4 @@ jobs:
           DATABASE:     ${{secrets.DATABASE}}
           SCHEMA:       ${{secrets.SCHEMA}}
         run: |
-          python main.py
+          python -u main.py

@@ -3,7 +3,7 @@ name: Data Engineering events notifier
 on:
   schedule:
   #   - cron: "0 12 * * 7"
-    - cron: 20 14 * * *
+    - cron: 25 13 * * *
 
 jobs:
   update_raw_snowflake_table:

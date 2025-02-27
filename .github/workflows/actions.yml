@@ -1,8 +1,8 @@
 name: Data Engineering events notifier
 
-on: push
-  # schedule:
-  #   - cron: 35 * * * *
+on:
+  schedule:
+    - cron: 0 12 * * 7
 
 jobs:
   update_raw_snowflake_table:

@@ -26,7 +26,9 @@ Technologies used:
 6. Convo
     - Internal communication platform, post addressed to relevant groups
 
-[![Process diagram](.docs/process.svg)](.docs/process.svg)
+<a href=".docs/process.svg" target="_blank">
+    <img src=".docs/process.svg" width="800">
+</a>
 
 <h2>Key steps</h2>
 
